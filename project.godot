@@ -15,6 +15,10 @@ run/main_scene="uid://dkewd2xlca6kr"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SignalHub="*res://Globals/SignalHub.gd"
+
 [display]
 
 window/stretch/mode="viewport"
@@ -70,6 +74,8 @@ wind_state={
 [layer_names]
 
 2d_physics/layer_1="Floor"
+2d_physics/layer_2="player_hit_box"
+2d_physics/layer_3="player_attack"
 
 [rendering]
 

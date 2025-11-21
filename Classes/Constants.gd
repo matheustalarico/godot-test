@@ -1,11 +1,21 @@
 class_name Constants
 
 
-enum ObjectType {
-	EXPLOSION,
-	PICKUP,
-	BULLET_PLAYER,
-	BULLET_ENEMY
+enum AttackType {
+	NORMAL_ATTACK,
+	FIRE_ATTACK,
+	WATER_ATTACK,
+	WIND_ATTACK
+}
+enum AttackSource {
+	PLAYER,
+	ENEMY
+}
+enum States {
+	NORMAL,
+	FIRE,
+	WATER,
+	WIND
 }
 
 
